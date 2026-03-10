@@ -6,6 +6,7 @@ def read_file_string(file_name):
     f = open(file_name,'r')
     read_data = f.read()
     return read_data
+    f.close()
 
 def read_file_list(file_name):
     # Takes a file_name as string for a file name, 
